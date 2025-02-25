@@ -206,7 +206,7 @@ cumulus@switch:~$ nv set service snmp-server username testusernoauth auth-none
 cumulus@switch:~$ nv config apply
 ```
 
-The following example command configures MD5 authentication for the user `limiteduser1`:
+The following example command configures MD5 authentication for the user `testuserauth`:
 
 ```
 cumulus@switch:~$ nv set service snmp-server username testuserauth auth-md5 myauthmd5password
